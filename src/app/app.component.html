@@ -1,0 +1,8 @@
+<div class="container">
+  <p class="elapsed-time-text">{{ elapsedTimeText }}</p>
+  <div class="buttons-container">
+    <button type="button" *ngIf="displayStartButton" (click)="startStopwatch()">START</button>
+    <button type="button" *ngIf="!displayStartButton" (click)="stopStopwatch()">STOP</button>
+    <button type="button" (click)="resetStopwatch()">RESET</button>
+  </div>
+</div>

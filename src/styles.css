@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #414142;
+    position: relative;
+    font-family: monospace;
+}
+
+button {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Generic Button */
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+button:active {
+    outline: none;
+}
+
+.hide-element {
+    display: none;
+}
